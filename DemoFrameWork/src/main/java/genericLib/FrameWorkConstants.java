@@ -1,0 +1,21 @@
+package genericLib;
+/**
+ * 
+ * @author Vishwa
+ *
+ */
+public interface FrameWorkConstants {
+
+	String CHROME_KEY="webdriver.chrome.driver";	
+	String CHROME_PATH="./src/main/resources/Drivers/chromedriver.exe";
+
+	String FIREFOX_KEY="webdriver.gecko.driver";
+	String FIREFOX_PATH="./src/main/resources/Drivers/geckodriver.exe";
+
+	String EXCEL_PATH = "./src/test/resources/TestData/TestData.xlsx";
+
+	String PROPERTIES_PATH = "./src/test/resources/PropertyFile/Data.properties";
+
+	String SCREENSHOT_PATH = "./ScreenShots/";
+
+}
